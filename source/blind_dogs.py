@@ -1,5 +1,6 @@
 from agents_rwt import *
 
+
 class BlindDog(Thing):
     location = 1
 
