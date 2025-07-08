@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Trang-1" id="yaRHDrHUYnrn6VO40Ijs">
+    <mxGraphModel dx="1828" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pqry_ysjx99ymUpAyQ-8-1" value="Z" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pqry_ysjx99ymUpAyQ-8-2" value="T" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pqry_ysjx99ymUpAyQ-8-3" value="S" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pqry_ysjx99ymUpAyQ-8-4" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pqry_ysjx99ymUpAyQ-8-5" value="O" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pqry_ysjx99ymUpAyQ-8-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="Pqry_ysjx99ymUpAyQ-8-5" target="Pqry_ysjx99ymUpAyQ-8-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="330" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pqry_ysjx99ymUpAyQ-8-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="Pqry_ysjx99ymUpAyQ-8-5" target="Pqry_ysjx99ymUpAyQ-8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.28" y="119" as="sourcePoint" />
+            <mxPoint x="278.28" y="221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pqry_ysjx99ymUpAyQ-8-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="Pqry_ysjx99ymUpAyQ-8-1" target="Pqry_ysjx99ymUpAyQ-8-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="8" as="sourcePoint" />
+            <mxPoint x="478" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pqry_ysjx99ymUpAyQ-8-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="Pqry_ysjx99ymUpAyQ-8-4" target="Pqry_ysjx99ymUpAyQ-8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309.83000000000004" y="430.39" as="sourcePoint" />
+            <mxPoint x="483.83000000000004" y="674.39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pqry_ysjx99ymUpAyQ-8-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="Pqry_ysjx99ymUpAyQ-8-2" target="Pqry_ysjx99ymUpAyQ-8-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.83" y="-34.400000000000006" as="sourcePoint" />
+            <mxPoint x="613.8299999999999" y="209.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
