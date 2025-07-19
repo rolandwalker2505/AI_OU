@@ -27,17 +27,17 @@ if __name__ == "__main__":
     # print(my_route.actions('A'))
     # # print(my_route.action_cost(''))
 
-    result = breadth_first_search(my_route)
-    print(result)
-
-    result = depth_first_search(my_route)
-    print(path_states(result))
-
-    result = uniform_cost_search(my_route)
-    print(path_states(result))
-
-    result = greedy(my_route)
-    print(path_states(result))
+    # result = breadth_first_search(my_route)
+    # print(result)
+    #
+    # result = depth_first_search(my_route)
+    # print(path_states(result))
+    #
+    # result = uniform_cost_search(my_route)
+    # print(path_states(result))
+    #
+    # result = greedy(my_route)
+    # print(path_states(result))
 
     result = a_star(my_route)
     print(path_states(result))
