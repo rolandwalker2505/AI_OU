@@ -1,3 +1,4 @@
+from BFS.utils import euclidian_formula
 
 
 class Problem(object):
@@ -29,3 +30,7 @@ class RouteProblem(Problem):
 
     def action_cost(self, s, action, s1):
         return self.map.distance[s, s1]
+
+    def h(self, node):
+        locations = self.map.locations
+        return euclidian_formula(locations[self.goal], locations[node.state])

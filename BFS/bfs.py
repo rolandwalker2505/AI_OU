@@ -1,6 +1,4 @@
-import math
-from BFS.problems import RouteProblem
-from maps import Map
+
 from collections import deque
 
 def breadth_first_search(problem):
@@ -25,10 +23,3 @@ def breadth_first_search(problem):
                 queue.append(action)
 
     return
-
-
-# if __name__ == "__main__":
-#     romania = Map(links={('O', 'Z'): 71, ('O', 'S'): 151, ('A', 'Z'): 75, ('A', 'S'): 140, ('A', 'T'): 118},
-#                   locations={'A': (76, 497), 'O': (117, 580), 'S': (187, 463), 'T': (83, 414), 'Z': (92, 539)})
-#     my_route = RouteProblem('O', 'T', map=romania)
-#     print(breadth_first_search(my_route))

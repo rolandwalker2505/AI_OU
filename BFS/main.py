@@ -1,8 +1,12 @@
 from setuptools.command.build_ext import link_shared_object
 
 from BFS.problems import RouteProblem
+from BFS.ucs import uniform_cost_search
 from maps import Map
 from bfs import breadth_first_search
+from dfs import depth_first_search
+from ucs import *
+from trees import *
 
 
 if __name__ == "__main__":
@@ -22,5 +26,18 @@ if __name__ == "__main__":
     my_route = RouteProblem('O', 'T', map=romania)
     # print(my_route.actions('A'))
     # # print(my_route.action_cost(''))
+
     result = breadth_first_search(my_route)
     print(result)
+
+    result = depth_first_search(my_route)
+    print(path_states(result))
+
+    result = uniform_cost_search(my_route)
+    print(path_states(result))
+
+    result = greedy(my_route)
+    print(path_states(result))
+
+    result = a_star(my_route)
+    print(path_states(result))

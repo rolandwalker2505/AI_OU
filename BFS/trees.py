@@ -15,3 +15,14 @@ class Node:
 cutoff = Node('cutoff', path_cost=math.inf)  # Indicates iterative deepening search was cut off.
 failure = Node('failure', path_cost=math.inf)  # Indicates an algorithm couldn't find a solution.
 
+def expand(problem, node):
+    s = node.state
+    for action in problem.actions(s):
+        s1 = problem.result(s, action)
+        cost = node.path_cost + problem.action_cost(s, action, s1)
+        yield Node(s1, node, action, cost)
+
+def path_states(node):
+    if node in (None, failure):
+        return []
+    return path_states(node.parent) + [node.state]
